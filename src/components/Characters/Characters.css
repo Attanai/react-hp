@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+h1{
+  font-family: 'Harry Potter', sans-serif;                                                                                        
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+.pagination button{
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  height: 3rem;
+  background-color: #ffffff;
+}
+.pagination button:hover{
+  background-color: #bebebe;
+}
+.pagination button.active{
+  background-color: #aaaaaa;
+}
+
+.Gryffindor{
+  background-color: #740001;
+  color: #eeba30;
+}
+
+.Slytherin{
+  background-color: #1a472a;
+  color: #aaaaaa;
+}
+
+.Ravenclaw{
+  background-color: #0e1a40;
+  color: #bebebe;
+}
+
+.Hufflepuff{
+  background-color: #ecb939;
+  color: #372e29;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 5px solid #ff0000;
+  border-right: 5px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+.leFlyInTop span { animation-name: leFlyInTop }
+@keyframes leFlyInTop {
+    0% {
+        transform: translate(0px, -80px);
+        opacity: 0
+    }
+    50% {
+        transform: translate(10px, 50px);
+        animation-timing-function: ease-in-out
+    }
+}

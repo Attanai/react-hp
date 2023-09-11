@@ -1,0 +1,11 @@
+.leFlyInBottom span { animation-name: leFlyInBottom }
+@keyframes leFlyInBottom {
+    0% {
+        transform: translate(0px, 80px);
+        opacity: 0
+    }
+    50% {
+        transform: translate(10px, -50px);
+        animation-timing-function: ease-in-out
+    }
+}
